@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+*{margin: 0; font-family: 'Merriweather Sans', sans-serif;}
+
+@media only screen and (min-width: 1024px){
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: #293462;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex: 1;
+        background-color: #293462;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 3;
+        background-color: #293462;
+        gap: 80px;
+    }
+    #titulo{
+        color: #EC9B3B;
+        font-size: 300%;
+    }
+    .campos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    h2{
+        margin-top: 30px;
+    }
+    .celsius h1, .fahrenheit h1{
+        margin-top: 20px;
+    }
+    .celsius, .fahrenheit{
+        background-color: #F24C4C;
+        border-radius: 20px;
+        width: 30%;
+        height: 52%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #valor1, #valor2{
+        width: 80%;
+        border-radius: 3px;
+    }
+    .botao{
+        margin-top: 20px;
+        background-color: #EC9B3B;
+        width: 50%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .botao:hover{
+        background-color: #F77E21;
+        text-decoration: underline;
+    }
+    #valorConvertido1, #valorConvertido2{
+        margin-top: 10px;
+        font-size: x-large;
+        color: #F7D716;
+    }
+    p{
+        align-self: center;
+        margin-bottom: 10px;
+    }
+    img{
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: #293462;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        background-color: #293462;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 10;
+        background-color: #293462;
+        gap: 5%;
+    }
+    #titulo{
+        color: #EC9B3B;
+        font-size: x-large;
+        
+    }
+    .campos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    h2{
+        font-size: larger;
+        align-self: center;
+        margin-top: 5%;
+    }
+    .celsius h1, .fahrenheit h1{
+        font-size: larger;
+        align-self: center;
+        margin: 5% 0 5% 0;
+    }
+    .celsius, .fahrenheit{
+        background-color: #F24C4C;
+        border-radius: 20px;
+        width: 80%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    #valor1, #valor2{
+        width: 55%;
+        height: 30%;
+    }
+    .botao{
+        margin-top: 5%;
+        border-radius: 10px;
+        width: 55%;
+        height: 35px;
+    }
+    .botao:hover{
+        background-color: #F77E21;
+        text-decoration: underline;
+    }
+    #valorConvertido1, #valorConvertido2{
+        margin-top: 5%;
+        font-size: large;
+        color: #F7D716;
+    }
+    p{
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 5px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./2204471.png">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">CONVERSOR DE TEMPERATURA</h1>
+    </header>
+    <main>
+        <!-- Celsius -->
+        <div class="celsius">
+            <h1>Temperatura em Celsius:</h1>
+            <div class="campos">
+                <input type="text" id="valor1" placeholder="Insira o valor em ºC">
+                <input class="botao" type="submit" onclick="capturar1()" value="CONVERTER">
+                <h2>Convertido em Fahrenheit:</h2>
+                <p id="valorConvertido1"></p>
+            </div>
+        </div>
+
+        <img src="./2204471.png">
+        <!-- Fahrenheit -->
+        <div class="fahrenheit">
+            <h1>Temperatura em Fahrenheit:</h1>
+            <div class="campos">
+                <input type="text" id="valor2" placeholder="Insira o valor em ºF">
+                <input class="botao" type="submit" onclick="capturar2()" value="CONVERTER">
+                <h2>Convertido em Celsius:</h2>
+                <p id="valorConvertido2"></p>
+            </div>
+        </div>
+    </main>
+    <p>Leo Bizzocchi Kusunoki - 2023</p>
+    <script src="script.js"></script>
+</body>
+</html>
